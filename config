@@ -1,0 +1,14 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/weixuanzhu/Java.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "Java300"]
+	url = https://github.com/weixuanzhu/Java.git
+	fetch = +refs/heads/*:refs/remotes/Java300/*
+	pushurl = https://github.com/weixuanzhu/Java.git
+	tagopt = --tags
